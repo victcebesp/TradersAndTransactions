@@ -6,11 +6,10 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 /**
  * TODO
- * - Return a string of all traders’ names sorted alphabetically.
-
  * - Are any traders based in Milan?
 
  * - Print all transactions’ values from the traders living in Cambridge.
@@ -98,6 +97,16 @@ public class TransactionsShould {
                                                                        .collect(Collectors.toList());
 
         assertEquals(resultExpected, allTraderNamesSortedAlphabetically);
+    }
+
+    @Test
+    public void decide_whether_a_trader_is_based_in_Milan_or_not (){
+
+        boolean thereIsATraderBasedInMilan = transactions.stream()
+                                                         .map(Transaction::getTraderCity)
+                                                         .anyMatch(s -> s.equals("Milan"));
+
+        assertTrue(thereIsATraderBasedInMilan);
     }
 
 }

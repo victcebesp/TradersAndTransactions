@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a746934-4e91-4b9c-8a1b-f9bfe4ec25d6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Transaction.java" afterPath="$PROJECT_DIR$/src/Transaction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/TransactionsShould.java" afterPath="$PROJECT_DIR$/test/TransactionsShould.java" />
     </list>
     <ignored path="TradersAndTransactions.iws" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="TransactionsShould.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/TransactionsShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="99" column="73" selection-start-line="99" selection-start-column="73" selection-end-line="99" selection-end-column="73" />
+            <state relative-caret-position="517">
+              <caret line="102" column="57" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,8 +96,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Trader.java" />
-        <option value="$PROJECT_DIR$/test/TransactionsShould.java" />
         <option value="$PROJECT_DIR$/src/Transaction.java" />
+        <option value="$PROJECT_DIR$/test/TransactionsShould.java" />
       </list>
     </option>
   </component>
@@ -598,20 +597,11 @@
       <option name="presentableId" value="Default" />
       <updated>1480619308412</updated>
       <workItem from="1480619325036" duration="246000" />
-      <workItem from="1481098023878" duration="6199000" />
+      <workItem from="1481098023878" duration="6530000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TransactionsShould - 2016.12.07 at 14h 21m 54s.xml">
-      <configuration name="TransactionsShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransactionsShould - 2016.12.07 at 14h 33m 12s.xml">
-      <configuration name="TransactionsShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransactionsShould - 2016.12.07 at 14h 35m 05s.xml">
-      <configuration name="TransactionsShould" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TransactionsShould - 2016.12.07 at 14h 36m 44s.xml">
       <configuration name="TransactionsShould" configurationId="JUnit" />
     </history-entry>
@@ -633,9 +623,18 @@
     <history-entry file="TransactionsShould - 2016.12.07 at 19h 33m 59s.xml">
       <configuration name="TransactionsShould" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TransactionsShould - 2016.12.07 at 19h 38m 50s.xml">
+      <configuration name="TransactionsShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransactionsShould - 2016.12.07 at 19h 39m 04s.xml">
+      <configuration name="TransactionsShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransactionsShould - 2016.12.07 at 19h 39m 08s.xml">
+      <configuration name="TransactionsShould" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6445000" />
+    <option name="totallyTimeSpent" value="6776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -759,8 +758,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/TransactionsShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="99" column="73" selection-start-line="99" selection-start-column="73" selection-end-line="99" selection-end-column="73" />
+        <state relative-caret-position="517">
+          <caret line="102" column="57" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
