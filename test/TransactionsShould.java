@@ -8,12 +8,6 @@ import java.util.stream.Collectors;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-/**
- * TODO
- * - Find the transaction with the smallest value.
- *
- */
-
 public class TransactionsShould {
 
     private Trader mario;
