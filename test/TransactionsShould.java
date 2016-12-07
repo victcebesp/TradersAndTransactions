@@ -105,4 +105,14 @@ public class TransactionsShould {
         assertTrue(thereIsATraderBasedInMilan);
     }
 
+    @Test
+    public void collect_the_highest_value_of_all_transactions (){
+
+        int maxValue = 1000;
+
+        int resultValue = transactions.stream().map(Transaction::getValue).max(Integer::compareTo).get();
+
+        assertEquals(maxValue, resultValue);
+    }
+
 }
