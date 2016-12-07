@@ -108,9 +108,25 @@ public class TransactionsShould {
 
         int maxValue = 1000;
 
-        int resultValue = transactions.stream().map(Transaction::getValue).max(Integer::compareTo).orElse(0);
+        int resultValue = transactions.stream()
+                                      .map(Transaction::getValue)
+                                      .max(Integer::compareTo)
+                                      .orElse(0);
 
         assertEquals(maxValue, resultValue);
+    }
+
+    @Test
+    public void collect_the_lowest_value_of_all_transactions (){
+
+        int minValue = 300;
+
+        int resultValue = transactions.stream()
+                                      .map(Transaction::getValue)
+                                      .min(Integer::compareTo)
+                                      .orElse(0);
+
+        assertEquals(minValue, resultValue);
     }
 
 }
