@@ -93,8 +93,7 @@ public class TransactionsShould {
         List<String> resultExpected = Arrays.asList("Alan", "Brian", "Mario", "Mario", "Raoul", "Raoul");
 
         List<String> allTraderNamesSortedAlphabetically = transactions.stream()
-                                                                       .map(Transaction::getTrader)
-                                                                       .map(Trader::getName)
+                                                                       .map(Transaction::getTraderName)
                                                                        .sorted(String::compareTo)
                                                                        .collect(Collectors.toList());
 

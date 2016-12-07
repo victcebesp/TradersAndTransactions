@@ -37,4 +37,8 @@ public class Transaction {
     public String getTraderCity(){
         return trader.getCity();
     }
+
+    public String getTraderName(){
+        return trader.getName();
+    }
 }
