@@ -28,8 +28,8 @@
       <file leaf-file-name="TransactionsShould.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/TransactionsShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="108" column="43" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="61" />
+            <state relative-caret-position="517">
+              <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -597,17 +597,11 @@
       <option name="presentableId" value="Default" />
       <updated>1480619308412</updated>
       <workItem from="1480619325036" duration="246000" />
-      <workItem from="1481098023878" duration="7374000" />
+      <workItem from="1481098023878" duration="7945000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TransactionsShould - 2016.12.07 at 19h 26m 30s.xml">
-      <configuration name="TransactionsShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransactionsShould - 2016.12.07 at 19h 32m 40s.xml">
-      <configuration name="TransactionsShould" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TransactionsShould - 2016.12.07 at 19h 33m 59s.xml">
       <configuration name="TransactionsShould" configurationId="JUnit" />
     </history-entry>
@@ -632,9 +626,15 @@
     <history-entry file="TransactionsShould - 2016.12.07 at 19h 52m 28s.xml">
       <configuration name="TransactionsShould" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TransactionsShould - 2016.12.07 at 20h 02m 33s.xml">
+      <configuration name="TransactionsShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransactionsShould - 2016.12.07 at 20h 10m 52s.xml">
+      <configuration name="TransactionsShould" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7620000" />
+    <option name="totallyTimeSpent" value="8191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -758,8 +758,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/TransactionsShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="108" column="43" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="61" />
+        <state relative-caret-position="517">
+          <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

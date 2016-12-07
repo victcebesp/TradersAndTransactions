@@ -10,8 +10,6 @@ import static org.junit.Assert.assertTrue;
 
 /**
  * TODO
- * - What’s the highest value of all the transactions?
-
  * - Find the transaction with the smallest value.
  *
  */
@@ -110,7 +108,7 @@ public class TransactionsShould {
 
         int maxValue = 1000;
 
-        int resultValue = transactions.stream().map(Transaction::getValue).max(Integer::compareTo).get();
+        int resultValue = transactions.stream().map(Transaction::getValue).max(Integer::compareTo).orElse(0);
 
         assertEquals(maxValue, resultValue);
     }
