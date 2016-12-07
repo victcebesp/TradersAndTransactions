@@ -28,8 +28,8 @@
       <file leaf-file-name="TransactionsShould.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/TransactionsShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="77" column="66" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="72" />
+            <state relative-caret-position="477">
+              <caret line="90" column="35" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -595,14 +595,11 @@
       <option name="presentableId" value="Default" />
       <updated>1480619308412</updated>
       <workItem from="1480619325036" duration="246000" />
-      <workItem from="1481098023878" duration="5757000" />
+      <workItem from="1481098023878" duration="6123000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TransactionsShould - 2016.12.07 at 14h 14m 15s.xml">
-      <configuration name="TransactionsShould" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TransactionsShould - 2016.12.07 at 14h 21m 33s.xml">
       <configuration name="TransactionsShould" configurationId="JUnit" />
     </history-entry>
@@ -630,9 +627,12 @@
     <history-entry file="TransactionsShould - 2016.12.07 at 19h 26m 30s.xml">
       <configuration name="TransactionsShould" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TransactionsShould - 2016.12.07 at 19h 32m 40s.xml">
+      <configuration name="TransactionsShould" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6003000" />
+    <option name="totallyTimeSpent" value="6369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -754,8 +754,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/TransactionsShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="77" column="66" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="72" />
+        <state relative-caret-position="477">
+          <caret line="90" column="35" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

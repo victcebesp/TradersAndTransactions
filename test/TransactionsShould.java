@@ -9,8 +9,6 @@ import static org.junit.Assert.assertEquals;
 
 /**
  * TODO
- * - Find all traders from Cambridge and sort them by name.
-
  * - Return a string of all traders’ names sorted alphabetically.
 
  * - Are any traders based in Milan?
@@ -87,6 +85,20 @@ public class TransactionsShould {
                                 .collect(Collectors.toList());
 
         assertEquals(resultExpected, traderFromCambridgeSortedByName);
+    }
+
+    @Test
+    public void collect_all_traders_name_as_a_string_sorted_alphabetically(){
+
+        List<String> resultExpected = Arrays.asList("Alan", "Brian", "Mario", "Mario", "Raoul", "Raoul");
+
+        List<String> allTraderNamesSortedAlphabetically = transactions.stream()
+                                                                       .map(Transaction::getTrader)
+                                                                       .map(Trader::getName)
+                                                                       .sorted(String::compareTo)
+                                                                       .collect(Collectors.toList());
+
+        assertEquals(resultExpected, allTraderNamesSortedAlphabetically);
     }
 
 }
