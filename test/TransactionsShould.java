@@ -10,10 +10,6 @@ import static org.junit.Assert.assertTrue;
 
 /**
  * TODO
- * - Are any traders based in Milan?
-
- * - Print all transactions’ values from the traders living in Cambridge.
-
  * - What’s the highest value of all the transactions?
 
  * - Find the transaction with the smallest value.
