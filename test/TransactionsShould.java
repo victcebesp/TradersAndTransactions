@@ -62,4 +62,17 @@ public class TransactionsShould {
 
         assertEquals(resultExpected, transactionsSorted);
     }
+
+    @Test
+     public void collect_all_the_unique_cities_where_traders_work(){
+
+        List<String> resultExpected = Arrays.asList("Cambridge", "Milan");
+
+        List<String> uniqueCities = transactions.stream()
+                                                .map(Transaction::getTraderCity)
+                                                .distinct()
+                                                .collect(Collectors.toList());
+
+        assertEquals(resultExpected, uniqueCities);
+    }
 }
