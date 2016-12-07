@@ -9,8 +9,6 @@ import static org.junit.Assert.assertEquals;
 
 /**
  * TODO
- * - What are all the unique cities where the traders work?
-
  * - Find all traders from Cambridge and sort them by name.
 
  * - Return a string of all traders’ names sorted alphabetically.
@@ -75,4 +73,20 @@ public class TransactionsShould {
 
         assertEquals(resultExpected, uniqueCities);
     }
+
+    @Test
+    public void collect_all_traders_from_cambridge_and_sort_them_by_name(){
+
+        List<Trader> resultExpected = Arrays.asList(alan, brian, raoul);
+
+        List<Trader> traderFromCambridgeSortedByName = transactions.stream()
+                                .filter(transaction -> transaction.getTraderCity().equals("Cambridge"))
+                                .map(Transaction::getTrader)
+                                .sorted((trader1, trader2) -> trader1.getName().compareTo(trader2.getName()))
+                                .distinct()
+                                .collect(Collectors.toList());
+
+        assertEquals(resultExpected, traderFromCambridgeSortedByName);
+    }
+
 }
